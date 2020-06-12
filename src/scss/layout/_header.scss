@@ -1,2 +1,31 @@
 .page__header {
+  width: 320px;
+  height: 568px;
+  border: 1px solid red;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+  }
+
+  .header {
+    .header-container {
+      width: 44px;
+      height: 44px;
+      background-color: $color-head;
+      text-align: center;
+      padding: 16px 14px;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .img {
+      width: 100%;
+    }
+  }
 }

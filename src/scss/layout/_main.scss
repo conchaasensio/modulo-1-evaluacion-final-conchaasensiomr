@@ -66,4 +66,18 @@
       }
     }
   }
+
+  .reasons {
+    border: 1px solid red;
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      text-align: center;
+
+      .section-title {
+        grid-column: span 5;
+      }
+    }
+  }
 }

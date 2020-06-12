@@ -1,0 +1,69 @@
+.page__main {
+  .tips {
+    width: 100%;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    font-family: $font-primary;
+
+    .wrapper {
+      width: 100%;
+      padding: 0 15px;
+
+      .section-tips {
+        display: block;
+        font-family: $font-primary;
+        .insomnia-tips {
+          color: $color-main;
+          text-transform: capitalize;
+          font-size: 0.87rem;
+          line-height: 30px;
+          margin-bottom: 1px;
+          margin-top: 0;
+          width: 90px;
+          height: 30px;
+        }
+
+        .tips-text {
+          .tips-title {
+            font-family: $font-secondary;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            line-height: 30px;
+            margin-bottom: 15px;
+            width: 290px;
+            height: 60px;
+          }
+
+          .section-text {
+            font-size: 1.12rem;
+            color: $color-tips;
+            line-height: 30px;
+            margin-bottom: 30px;
+            width: 290px;
+            height: 120px;
+          }
+        }
+
+        .tips-button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 76px;
+          height: 45px;
+          border: solid 2px $color-button;
+          border-radius: 22.5px;
+          text-align: center;
+
+          .go-button {
+            color: $color-button;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

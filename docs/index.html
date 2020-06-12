@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Evaluación final Módulo 1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -12,32 +15,120 @@
   <body>
     <div class="page">
       <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+        <div class="wrapper">
+          <section class="header">
+            <div class="header-container">
+              <a
+                class="header-button"
+                href="https://adalab.es/"
+                title="Ir a la web de Adalab"
+              >
+                <img src="./assets/images/ico-menu.svg" />
+              </a>
+            </div>
+          </section>
+          <section class="hero">
+            <h1 class="hero-title">
+              <span>Anonymous</span>
+              <span>Proxy</span>
+            </h1>
+            <span class="hero-text">In hac habitasse platea dictumst</span>
+            <div class="button-hero-container">
+              <div class="button-hero">
+                <a href="#" title="Ir a la sección 3 Reasons to Purchase">
+                  <img src="./assets/images/ico-scroll-down.svg" />
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
       </header>
 
       <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Hola mundo</p>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
+        <section class="tips">
+          <article class="setion-tips">
+            <small>Insomnia tips</small>
+            <div class="tips-text">
+              <h3>Looking through a window</h3>
+              <p>
+                Donec accusan, nulla ut volutpat porttitor, quam odio tempus felis, at
+                luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+              </p>
+            </div>
+            <div class="tips-button">
+              <span>Go</span>
+            </div>
+          </article>
+        </section>
+        <section class="reasons">
+          <h2>3 reasons to purchase</h2>
+          <article class="reason">
+            <h3>Ut sed metus</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur.
+            </p>
+          </article>
+          <article class="reason">
+            <h3>Curabitur ac erat</h3>
+            <p>
+              Mauris mattis urna quis lorem molestie.
+            </p>
+          </article>
+          <article class="reason">
+            <h3>Morbi dictum</h3>
+            <p>
+              Aliquam in dolor et dolor tincidunt.
+            </p>
+          </article>
+          <div class="reasons-button">
+            <span>More reasons</span>
+          </div>
+        </section>
       </main>
 
-      <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-      <a class="link__github" href="https://github.com" target="_blank">GitHub</a>
-
       <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
+        <div class="button-footer-container">
+          <a class="button-footer" href="#" title="Ir al inicio de la página">
+            <img src="./assets/images/ico-arrow.svg" />
+          </a>
+        </div>
 
-        </small>
+        <nav>
+          <ul class="footer-menu">
+            <li>
+              <a href="#">Articles</a>
+            </li>
+            <li>
+              <a href="#">Books</a>
+            </li>
+            <li>
+              <a href="#">Events</a>
+            </li>
+            <li>
+              <a href="#">Reasons</a>
+            </li>
+            <li>
+              <a href="#">Tips</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="footer-social">
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">Mastodon.social</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copy">
+          <span>&copy; 2017</span>
+          <span>We ❤ components</span>
+        </div>
       </footer>
 
     </div>

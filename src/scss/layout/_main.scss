@@ -1,73 +1,73 @@
 .page__main {
+  .main__wrapper {
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+
   .tips {
     width: 100%;
     height: 376px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     margin-top: 30px;
     font-family: $font-primary;
 
-    .wrapper {
-      width: 100%;
-      padding: 0 15px;
+    &__text {
+      color: $color-main;
+      text-transform: capitalize;
+      font-size: 0.87rem;
+      line-height: 30px;
+      margin-bottom: 1px;
+      margin-top: 0;
+      width: 90px;
+      height: 30px;
+    }
 
-      .section-tips {
-        display: block;
-        font-family: $font-primary;
-        .insomnia-tips {
-          color: $color-main;
-          text-transform: capitalize;
-          font-size: 0.87rem;
-          line-height: 30px;
-          margin-bottom: 1px;
-          margin-top: 0;
-          width: 90px;
-          height: 30px;
-        }
+    &__title {
+      font-family: $font-secondary;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      line-height: 30px;
+      margin-bottom: 15px;
+      width: 290px;
+      height: 60px;
+    }
 
-        .tips-text {
-          .tips-title {
-            font-family: $font-secondary;
-            text-transform: capitalize;
-            font-size: 1.5rem;
-            line-height: 30px;
-            margin-bottom: 15px;
-            width: 290px;
-            height: 60px;
-          }
+    p {
+      font-size: 1.12rem;
+      color: $color-tips;
+      line-height: 30px;
+      margin-bottom: 30px;
+      width: 290px;
+      height: 120px;
+    }
 
-          .section-text {
-            font-size: 1.12rem;
-            color: $color-tips;
-            line-height: 30px;
-            margin-bottom: 30px;
-            width: 290px;
-            height: 120px;
-          }
-        }
+    .go__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 76px;
+      height: 45px;
+      background-color: $color-light;
+      border: solid 2px $color-button;
+      border-radius: 22.5px;
+      text-align: center;
 
-        .tips-button {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 76px;
-          height: 45px;
-          border: solid 2px $color-button;
-          border-radius: 22.5px;
-          text-align: center;
-
-          .go-button {
-            color: $color-button;
-            width: 100%;
-          }
-        }
+      a {
+        color: $color-button;
+        font-size: 1.25rem;
+        line-height: 45px;
+        // font-weight: ;
       }
     }
   }
 
-  .reasons {
+  .main__reasons {
     width: 100%;
     height: 624px;
     background-color: $color-backgroundmain;

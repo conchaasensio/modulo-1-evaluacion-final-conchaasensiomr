@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
   width: 100%;
-  height: 465px;
+  max-width: 1200px;
+  min-height: 465px;
   color: $color-light;
   background-color: $color-footer;
-  border: 1px solid red;
 
-  .button-footer-container {
+  .footer__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@
     border-radius: 50%;
   }
 
-  .footer-menu {
+  .footer__menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -37,7 +38,7 @@
     }
   }
 
-  .footer-social {
+  .footer__social {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -60,5 +61,9 @@
     text-transform: uppercase;
     line-height: 30px;
     text-transform: capitalize;
+
+    .emoji {
+      color: $color-button;
+    }
   }
 }

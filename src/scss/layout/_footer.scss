@@ -1,2 +1,64 @@
 .page__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 465px;
+  color: $color-light;
+  background-color: $color-footer;
+  border: 1px solid red;
+
+  .button-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-3px, -24px);
+    color: $color-button;
+    background-color: $color-light;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+
+    li {
+      padding: 2px;
+    }
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+
+    li {
+      padding: 2px;
+    }
+  }
+
+  .copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-transform: capitalize;
+  }
 }

@@ -1,7 +1,6 @@
 .page__header {
   width: 100%;
-  height: 568px;
-  border: 1px solid red;
+  height: 100vh;
   background: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -9,10 +8,10 @@
   .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 15px;
-    height: 100vh;
+    height: 100%;
   }
 
   .header {
@@ -61,13 +60,15 @@
     }
 
     .button-hero-container {
-      display: inline-block;
+      display: flex;
+      justify-content: center;
       text-align: center;
-      align-self: center;
+      align-items: center;
       background-color: $color-light;
       width: 45px;
       height: 45px;
       border-radius: 22.5px;
+      margin-bottom: 53px;
     }
     .button-hero {
       display: block;
@@ -76,8 +77,6 @@
 
     img {
       text-align: center;
-      position: relative;
-      transform: translate(0px, 16px);
     }
   }
 }

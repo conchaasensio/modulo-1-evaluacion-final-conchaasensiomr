@@ -14,76 +14,85 @@
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <div class="wrapper">
-          <section class="header">
-            <div class="header-container">
-              <a
-                class="header-button"
-                href="https://adalab.es/"
-                title="Ir a la web de Adalab"
-              >
-                <img src="./assets/images/ico-menu.svg" />
-              </a>
-            </div>
-          </section>
+      <header class="page__header" id="home">
+        <div class="header__wrapper">
+          <div class="header__menu">
+            <a
+              class="header__button"
+              href="https://adalab.es/"
+              title="Ir a la web de Adalab"
+            >
+              <img
+                class="menu__logo"
+                src="./assets/images/ico-menu.svg"
+                alt="Logo del menú"
+              />
+            </a>
+          </div>
           <section class="hero">
-            <h1 class="hero-title">
-              <span>Anonymous</span>
-              <span>Proxy</span>
-            </h1>
-            <span class="hero-text">In hac habitasse platea dictumst</span>
-            <div class="button-hero-container">
-              <div class="button-hero">
-                <a href="#" title="Ir a la sección 3 Reasons to Purchase">
-                  <img src="./assets/images/ico-scroll-down.svg" />
-                </a>
-              </div>
+            <div class="hero__title">
+              <h1 class="hero__title__h1">
+                <span>Anonymous</span>
+                <span>Proxy</span>
+              </h1>
+              <p class="hero__title__text">In hac habitasse platea dictumst</p>
+            </div>
+            <div class="hero__button">
+              <a href="#" title="Ir a la sección 3 Reasons to Purchase">
+                <img
+                  src="./assets/images/ico-scroll-down.svg"
+                  alt="Ir a la sección 3 Reasons to Purchase"
+                />
+              </a>
             </div>
           </section>
         </div>
       </header>
 
       <main class="page__main">
-        <section class="tips">
-          <article class="setion-tips">
-            <small>Insomnia tips</small>
-            <div class="tips-text">
-              <h3>Looking through a window</h3>
+        <div class="main__wrapper">
+          <section class="main__tips">
+            <article class="tips">
+              <span class="tips__text">Insomnia tips</span>
+              <h3 class="tips__title">
+                <span>Looking through a window</span>
+              </h3>
               <p>
                 Donec accusan, nulla ut volutpat porttitor, quam odio tempus felis, at
                 luctus ex diam nec lectus. Vivamus semper sodales rutrum.
               </p>
+              <div class="go__button">
+                <a href="https://adalab.es/" title="Ir a la web de Adalab">Go</a>
+              </div>
+            </article>
+          </section>
+          <section class="reasons">
+            <h2 class="reasons__title">3 reasons to purchase</h2>
+            <article class="reasons__1">
+              <h3>Ut sed metus</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur.
+              </p>
+            </article>
+            <article class="reasons__2">
+              <h3>Curabitur ac erat</h3>
+              <p>
+                Mauris mattis urna quis lorem molestie.
+              </p>
+            </article>
+            <article class="reasons__3">
+              <h3>Morbi dictum</h3>
+              <p>
+                Aliquam in dolor et dolor tincidunt.
+              </p>
+            </article>
+            <div class="reasons__button">
+              <a href="https://adalab.es/" title="Ir a la web de Adalab"
+                >More reasons</a
+              >
             </div>
-            <div class="tips-button">
-              <span>Go</span>
-            </div>
-          </article>
-        </section>
-        <section class="reasons">
-          <h2>3 reasons to purchase</h2>
-          <article class="reason">
-            <h3>Ut sed metus</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur.
-            </p>
-          </article>
-          <article class="reason">
-            <h3>Curabitur ac erat</h3>
-            <p>
-              Mauris mattis urna quis lorem molestie.
-            </p>
-          </article>
-          <article class="reason">
-            <h3>Morbi dictum</h3>
-            <p>
-              Aliquam in dolor et dolor tincidunt.
-            </p>
-          </article>
-          <div class="reasons-button">
-            <span>More reasons</span>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
 
       <footer class="page__footer">
@@ -92,36 +101,37 @@
             <img src="./assets/images/ico-arrow.svg" />
           </a>
         </div>
-
         <nav>
           <ul class="footer-menu">
             <li>
-              <a href="#">Articles</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Articles</a>
             </li>
             <li>
-              <a href="#">Books</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Books</a>
             </li>
             <li>
-              <a href="#">Events</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Events</a>
             </li>
             <li>
-              <a href="#">Reasons</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Reasons</a>
             </li>
             <li>
-              <a href="#">Tips</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Tips</a>
             </li>
           </ul>
         </nav>
         <nav>
           <ul class="footer-social">
             <li>
-              <a href="#">Twitter</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Twitter</a>
             </li>
             <li>
-              <a href="#">Instagram</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab">Instagram</a>
             </li>
             <li>
-              <a href="#">Mastodon.social</a>
+              <a href="https://adalab.es/" title="Ir a la web de Adalab"
+                >Mastodon.social</a
+              >
             </li>
           </ul>
         </nav>

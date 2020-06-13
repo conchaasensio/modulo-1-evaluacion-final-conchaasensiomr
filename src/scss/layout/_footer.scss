@@ -66,4 +66,34 @@
       color: $color-button;
     }
   }
+
+  @include tablet {
+    min-height: 240px;
+    // padding: 45px 39px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+
+    .menu__list {
+      width: 210px;
+      align-items: left;
+      text-align: left;
+      order: 2;
+    }
+
+    .social__list {
+      width: 210px;
+      text-align: left;
+      order: 3;
+    }
+
+    .copy {
+      width: 210px;
+      order: 1;
+    }
+
+    .footer__button {
+      transform: translate(-3px, -128px);
+    }
+  }
 }

@@ -61,8 +61,12 @@
       a {
         color: $color-button;
         font-size: 1.25rem;
+        transition: font-size ease 1s;
         font-weight: $weight-medium;
         line-height: 45px;
+      }
+      a:hover {
+        font-size: 2rem;
       }
     }
   }

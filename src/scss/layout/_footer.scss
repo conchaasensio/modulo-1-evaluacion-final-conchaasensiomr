@@ -10,6 +10,12 @@
   color: $color-light;
   background-color: $color-footer;
 
+  &__wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+  }
+
   .footer__button {
     display: flex;
     justify-content: center;
@@ -94,6 +100,24 @@
 
     .footer__button {
       transform: translate(-3px, -128px);
+    }
+  }
+
+  @include desktop {
+    // padding: 45px 370px;
+    justify-content: center;
+
+    .menu__list {
+      width: 161px;
+      order: 2;
+    }
+
+    .social__list {
+      width: 159px;
+    }
+
+    .copy {
+      width: 159px;
     }
   }
 }

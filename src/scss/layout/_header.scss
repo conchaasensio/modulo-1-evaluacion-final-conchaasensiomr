@@ -52,6 +52,10 @@
         animation-name: intro;
         animation-iteration-count: 1;
         animation-timing-function: linear;
+
+        span {
+          display: block;
+        }
       }
       @keyframes intro {
         from {

@@ -209,4 +209,48 @@
       }
     }
   }
+
+  @include desktop {
+    .main__wrapper {
+      min-width: 1280px;
+    }
+
+    .tips {
+      height: 360px;
+      padding: 60px 275px 60px 275px;
+
+      &__text {
+        width: 360px;
+      }
+      &__title {
+        font-size: 2rem;
+        width: 730px;
+      }
+
+      p {
+        width: 730px;
+      }
+
+      .go__button {
+        width: 160px;
+      }
+    }
+
+    .reasons {
+      max-height: 427px;
+      padding: 60px 85px 60px 81.2px;
+
+      &__title {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      &__button {
+        width: 255px;
+      }
+    }
+  }
 }

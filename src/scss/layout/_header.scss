@@ -48,6 +48,20 @@
         text-transform: uppercase;
         line-height: 55px;
         margin: 0;
+        animation-duration: 3s;
+        animation-name: intro;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+      }
+      @keyframes intro {
+        from {
+          transform: scale(10) rotate(-150deg);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
       }
 
       p {

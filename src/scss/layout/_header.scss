@@ -3,12 +3,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  max-width: 1200px;
 
   .header__wrapper {
     width: 100%;
     margin: auto;
     padding: 0 15px;
-    max-width: 1200px;
 
     .header__button {
       width: 44px;

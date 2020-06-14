@@ -130,6 +130,7 @@
     &__button {
       grid-column: 2 / 5;
       background-color: $color-button;
+      transition: background-color ease 1s;
       width: 184px;
       height: 45px;
       border-radius: 22.5px;
@@ -139,9 +140,16 @@
       a {
         font-size: 1.25rem;
         color: $color-light;
+        transition: color ease 1s;
         line-height: 45px;
         font-weight: $weight-medium;
       }
+      a:hover {
+        color: $color-button;
+      }
+    }
+    &__button:hover {
+      background-color: $color-footer;
     }
   }
 

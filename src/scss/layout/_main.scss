@@ -15,6 +15,7 @@
     align-items: left;
     padding: 30px 15px 45px 15px;
     font-family: $font-primary;
+    font-weight: $weight-regular;
 
     &__text {
       color: $color-main;
@@ -60,8 +61,8 @@
       a {
         color: $color-button;
         font-size: 1.25rem;
+        font-weight: $weight-medium;
         line-height: 45px;
-        // font-weight: ;
       }
     }
   }
@@ -77,6 +78,8 @@
     max-height: 624px;
     width: 100%;
     padding: 30px 0 60px;
+    font-family: $font-primary;
+    font-weight: $weight-regular;
 
     &__title {
       grid-column: span 5;
@@ -133,6 +136,7 @@
         font-size: 1.25rem;
         color: $color-light;
         line-height: 45px;
+        font-weight: $weight-medium;
       }
     }
   }

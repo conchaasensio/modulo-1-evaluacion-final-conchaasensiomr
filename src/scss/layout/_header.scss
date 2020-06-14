@@ -90,4 +90,22 @@
       }
     }
   }
+
+  @include desktop {
+    .hero {
+      padding-bottom: 13px;
+
+      &__title {
+        h1 {
+          font-size: 6.25rem;
+          line-height: 132px;
+          width: 730px;
+          height: 264px;
+        }
+        p {
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }

@@ -11,6 +11,8 @@
   min-height: 465px;
   color: $color-light;
   background-color: $color-footer;
+  font-family: $font-primary;
+  font-weight: $weight-regular;
 
   .footer__button {
     display: flex;

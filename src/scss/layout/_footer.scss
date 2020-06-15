@@ -25,6 +25,18 @@
     height: 45px;
     border-radius: 50%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    animation-duration: 2s;
+    animation-name: button;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+  }
+  @keyframes button {
+    from {
+      transform: translate(-3px, -100px);
+    }
+    to {
+      transform: translate(-3px, -180px);
+    }
   }
 
   .footer__menu {
@@ -39,6 +51,9 @@
 
     li {
       padding: 2px;
+      a:hover {
+        color: $color-button;
+      }
     }
   }
 
@@ -53,6 +68,9 @@
 
     li {
       padding: 2px;
+      a:hover {
+        color: $color-button;
+      }
     }
   }
 
@@ -60,7 +78,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: start;
+    align-items: center;
     margin-bottom: 45px;
     line-height: 30px;
     text-transform: lowercase;
@@ -72,7 +90,6 @@
 
   @include tablet {
     min-height: 240px;
-    // padding: 45px 39px;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: left;
@@ -91,6 +108,7 @@
     }
 
     .copy {
+      align-items: start;
       width: 210px;
       order: -1;
       span {
@@ -104,7 +122,6 @@
   }
 
   @include desktop {
-    // padding: 45px 370px;
     justify-content: center;
 
     .menu__list {
@@ -118,6 +135,7 @@
 
     .copy {
       width: 159px;
+      margin-right: 30px;
     }
   }
 }

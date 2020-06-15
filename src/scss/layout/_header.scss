@@ -1,15 +1,17 @@
 .page__header {
-  background-image: url("../images/cover.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  background: {
+    image: url("../images/cover.jpg");
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
 
   .header__wrapper {
     width: 100%;
     margin: auto;
     padding: 0 15px;
-    max-width: 1200px;
+    max-width: 1280px;
 
     .header__button {
       width: 44px;

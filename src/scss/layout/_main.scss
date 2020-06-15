@@ -1,10 +1,4 @@
 .page__main {
-  // .main__wrapper {
-  //   width: 100%;
-  //   margin: auto;
-  //   min-width: 320px;
-  //   max-width: 1200px;
-  // }
   &__tips--wrapper {
     width: 100%;
     max-width: 1280px;
@@ -77,15 +71,6 @@
 
   .reasons {
     background-color: $color-backgroundmain;
-    // display: grid;
-    // grid-template-columns: repeat(5, 1fr);
-    // grid-row-gap: 45px;
-    // text-align: center;
-    // place-items: center;
-    // margin: 0;
-    // max-height: 624px;
-    // width: 100%;
-    // padding: 30px 0 60px;
     font-family: $font-primary;
     font-weight: $weight-regular;
 
@@ -95,7 +80,6 @@
       font-size: 1.5rem;
       line-height: 30px;
       text-transform: capitalize;
-      // margin-bottom: 45px;
     }
 
     &__wrapper {
@@ -116,14 +100,6 @@
       font-size: 1.12rem;
       line-height: 30px;
       margin: 0;
-      // display: flex;
-      // flex-direction: column;
-      // justify-content: center;
-      // align-items: center;
-      // grid-column: 2 / 5;
-      // font-size: 1.12rem;
-      // line-height: 30px;
-      // margin-bottom: 45px;
     }
 
     p {
@@ -171,10 +147,6 @@
   }
 
   @include tablet {
-    // .main__wrapper {
-    //   min-width: 768px;
-    // }
-
     .tips {
       height: 330px;
       padding: 30px 39px 60px 39px;
@@ -203,10 +175,6 @@
     }
 
     .reasons {
-      // max-height: 397px;
-      // padding: 30px 40px 60px 35.7px;
-      // grid-template-columns: repeat(3, 1fr);
-
       &__title {
         font-size: 1.62rem;
         line-height: 45px;
@@ -251,10 +219,6 @@
   }
 
   @include desktop {
-    // .main__wrapper {
-    //   min-width: 1280px;
-    // }
-
     .tips {
       height: 360px;
       padding: 60px 275px 60px 275px;
@@ -277,9 +241,6 @@
     }
 
     .reasons {
-      // max-height: 427px;
-      // padding: 60px 85px 60px 81.2px;
-
       &__title {
         font-size: 2rem;
       }

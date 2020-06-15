@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: start;
+    align-items: center;
     margin-bottom: 45px;
     line-height: 30px;
     text-transform: lowercase;
@@ -91,6 +91,7 @@
     }
 
     .copy {
+      align-items: start;
       width: 210px;
       order: -1;
       span {

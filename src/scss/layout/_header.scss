@@ -1,9 +1,11 @@
 .page__header {
-  background-image: url("../images/cover.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  background: {
+    image: url("../images/cover.jpg");
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
 
   .header__wrapper {
     width: 100%;

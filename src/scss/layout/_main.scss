@@ -1,19 +1,23 @@
 .page__main {
-  .main__wrapper {
+  // .main__wrapper {
+  //   width: 100%;
+  //   margin: auto;
+  //   min-width: 320px;
+  //   max-width: 1200px;
+  // }
+  &__tips--wrapper {
     width: 100%;
-    margin: auto;
-    min-width: 320px;
-    max-width: 1200px;
+    max-width: 1280px;
+    max-height: 376px;
   }
 
   .tips {
-    width: 100%;
-    height: 376px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
     padding: 30px 15px 45px 15px;
+
     font-family: $font-primary;
     font-weight: $weight-regular;
 
@@ -73,15 +77,15 @@
 
   .reasons {
     background-color: $color-backgroundmain;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-row-gap: 45px;
-    text-align: center;
-    place-items: center;
-    margin: 0;
-    max-height: 624px;
-    width: 100%;
-    padding: 30px 0 60px;
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    // grid-row-gap: 45px;
+    // text-align: center;
+    // place-items: center;
+    // margin: 0;
+    // max-height: 624px;
+    // width: 100%;
+    // padding: 30px 0 60px;
     font-family: $font-primary;
     font-weight: $weight-regular;
 
@@ -92,6 +96,19 @@
       line-height: 30px;
       text-transform: capitalize;
       // margin-bottom: 45px;
+    }
+
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-row-gap: 45px;
+      text-align: center;
+      place-items: center;
+      margin: auto;
+      max-width: 1280px;
+      max-height: 624px;
+      width: 100%;
+      padding: 30px 0 60px;
     }
 
     h3 {
@@ -154,9 +171,9 @@
   }
 
   @include tablet {
-    .main__wrapper {
-      min-width: 768px;
-    }
+    // .main__wrapper {
+    //   min-width: 768px;
+    // }
 
     .tips {
       height: 330px;
@@ -186,13 +203,19 @@
     }
 
     .reasons {
-      max-height: 397px;
-      padding: 30px 40px 60px 35.7px;
-      grid-template-columns: repeat(3, 1fr);
+      // max-height: 397px;
+      // padding: 30px 40px 60px 35.7px;
+      // grid-template-columns: repeat(3, 1fr);
 
       &__title {
         font-size: 1.62rem;
         line-height: 45px;
+      }
+
+      &__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        max-height: 397px;
+        padding: 30px 40px 60px 35.7px;
       }
 
       h3 {
@@ -228,9 +251,9 @@
   }
 
   @include desktop {
-    .main__wrapper {
-      min-width: 1280px;
-    }
+    // .main__wrapper {
+    //   min-width: 1280px;
+    // }
 
     .tips {
       height: 360px;
@@ -254,11 +277,16 @@
     }
 
     .reasons {
-      max-height: 427px;
-      padding: 60px 85px 60px 81.2px;
+      // max-height: 427px;
+      // padding: 60px 85px 60px 81.2px;
 
       &__title {
         font-size: 2rem;
+      }
+
+      &__wrapper {
+        max-height: 427px;
+        padding: 60px 85px 60px 81.2px;
       }
 
       h3 {
